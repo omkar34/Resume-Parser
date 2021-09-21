@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug 28 11:07:12 2021
-
-@author: Omkar.Thopate
-"""
 
 import pandas as pd
 import numpy as np
@@ -157,19 +151,3 @@ for i in data:
         data[i] = elem
 
 print(json.dumps(data, indent = 4))
-
-# linkedin = data['linkedin']
-# phone = data['phone']
-# email = data['email'] 
-# skills = data['skills']
-# experience = data['experience']
-# degree = data['degree']
-# extra_curricular = data['extra_curricular']
-
-# print(linkedin)
-# print(phone)
-# print(email)
-# print(skills)
-# print(experience)
-# print(degree)
-# print(extra_curricular)
